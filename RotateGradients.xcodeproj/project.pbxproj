@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76BBD771F02A95900B81C4F /* GradientViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176BB1F02A75E0050942C /* GradientViewController1.swift */; };
+		C76BBD781F02A95C00B81C4F /* GradientViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176BC1F02A75E0050942C /* GradientViewController2.swift */; };
+		C76BBD791F02A95F00B81C4F /* GradientViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176BE1F02A75E0050942C /* GradientViewController3.swift */; };
+		C76BBD7A1F02A96200B81C4F /* GradientViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176BD1F02A75E0050942C /* GradientViewController4.swift */; };
+		C7C176A91F02A7010050942C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176A81F02A7010050942C /* AppDelegate.swift */; };
+		C7C176AE1F02A7010050942C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C176AC1F02A7010050942C /* Main.storyboard */; };
+		C7C176B01F02A7010050942C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C176AF1F02A7010050942C /* Assets.xcassets */; };
+		C7C176B31F02A7010050942C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C176B11F02A7010050942C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7C176A51F02A7010050942C /* RotateGradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateGradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C176A81F02A7010050942C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7C176AD1F02A7010050942C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7C176AF1F02A7010050942C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7C176B21F02A7010050942C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7C176B41F02A7010050942C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C176BB1F02A75E0050942C /* GradientViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController1.swift; sourceTree = "<group>"; };
+		C7C176BC1F02A75E0050942C /* GradientViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController2.swift; sourceTree = "<group>"; };
+		C7C176BD1F02A75E0050942C /* GradientViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController4.swift; sourceTree = "<group>"; };
+		C7C176BE1F02A75E0050942C /* GradientViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7C176A21F02A7010050942C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7C1769C1F02A7010050942C = {
+			isa = PBXGroup;
+			children = (
+				C7C176A71F02A7010050942C /* RotateGradients */,
+				C7C176A61F02A7010050942C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7C176A61F02A7010050942C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C176A51F02A7010050942C /* RotateGradients.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C176A71F02A7010050942C /* RotateGradients */ = {
+			isa = PBXGroup;
+			children = (
+				C7C176BB1F02A75E0050942C /* GradientViewController1.swift */,
+				C7C176BC1F02A75E0050942C /* GradientViewController2.swift */,
+				C7C176BE1F02A75E0050942C /* GradientViewController3.swift */,
+				C7C176BD1F02A75E0050942C /* GradientViewController4.swift */,
+				C7C176A81F02A7010050942C /* AppDelegate.swift */,
+				C7C176AC1F02A7010050942C /* Main.storyboard */,
+				C7C176AF1F02A7010050942C /* Assets.xcassets */,
+				C7C176B11F02A7010050942C /* LaunchScreen.storyboard */,
+				C7C176B41F02A7010050942C /* Info.plist */,
+			);
+			path = RotateGradients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7C176A41F02A7010050942C /* RotateGradients */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C176B71F02A7010050942C /* Build configuration list for PBXNativeTarget "RotateGradients" */;
+			buildPhases = (
+				C7C176A11F02A7010050942C /* Sources */,
+				C7C176A21F02A7010050942C /* Frameworks */,
+				C7C176A31F02A7010050942C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateGradients;
+			productName = RotateGradients;
+			productReference = C7C176A51F02A7010050942C /* RotateGradients.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C1769D1F02A7010050942C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Imanou Petit";
+				TargetAttributes = {
+					C7C176A41F02A7010050942C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = C7C176A01F02A7010050942C /* Build configuration list for PBXProject "RotateGradients" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7C1769C1F02A7010050942C;
+			productRefGroup = C7C176A61F02A7010050942C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C176A41F02A7010050942C /* RotateGradients */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7C176A31F02A7010050942C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C176B31F02A7010050942C /* LaunchScreen.storyboard in Resources */,
+				C7C176B01F02A7010050942C /* Assets.xcassets in Resources */,
+				C7C176AE1F02A7010050942C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7C176A11F02A7010050942C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76BBD791F02A95F00B81C4F /* GradientViewController3.swift in Sources */,
+				C76BBD771F02A95900B81C4F /* GradientViewController1.swift in Sources */,
+				C76BBD7A1F02A96200B81C4F /* GradientViewController4.swift in Sources */,
+				C7C176A91F02A7010050942C /* AppDelegate.swift in Sources */,
+				C76BBD781F02A95C00B81C4F /* GradientViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7C176AC1F02A7010050942C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C176AD1F02A7010050942C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7C176B11F02A7010050942C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C176B21F02A7010050942C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7C176B51F02A7010050942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7C176B61F02A7010050942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7C176B81F02A7010050942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SS584US562;
+				INFOPLIST_FILE = RotateGradients/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imanoupetit.RotateGradients;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7C176B91F02A7010050942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SS584US562;
+				INFOPLIST_FILE = RotateGradients/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imanoupetit.RotateGradients;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7C176A01F02A7010050942C /* Build configuration list for PBXProject "RotateGradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C176B51F02A7010050942C /* Debug */,
+				C7C176B61F02A7010050942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C176B71F02A7010050942C /* Build configuration list for PBXNativeTarget "RotateGradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C176B81F02A7010050942C /* Debug */,
+				C7C176B91F02A7010050942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C1769D1F02A7010050942C /* Project object */;
+}
