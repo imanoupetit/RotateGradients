@@ -11,6 +11,7 @@
 		C76BBD781F02A95C00B81C4F /* GradientViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176BC1F02A75E0050942C /* GradientViewController2.swift */; };
 		C76BBD791F02A95F00B81C4F /* GradientViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176BE1F02A75E0050942C /* GradientViewController3.swift */; };
 		C76BBD7A1F02A96200B81C4F /* GradientViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176BD1F02A75E0050942C /* GradientViewController4.swift */; };
+		C78018481F03333B005AFE40 /* GradientViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78018471F03333B005AFE40 /* GradientViewController5.swift */; };
 		C7C176A91F02A7010050942C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C176A81F02A7010050942C /* AppDelegate.swift */; };
 		C7C176AE1F02A7010050942C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C176AC1F02A7010050942C /* Main.storyboard */; };
 		C7C176B01F02A7010050942C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C176AF1F02A7010050942C /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C78018471F03333B005AFE40 /* GradientViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController5.swift; sourceTree = "<group>"; };
 		C7C176A51F02A7010050942C /* RotateGradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateGradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C176A81F02A7010050942C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7C176AD1F02A7010050942C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				C7C176BC1F02A75E0050942C /* GradientViewController2.swift */,
 				C7C176BE1F02A75E0050942C /* GradientViewController3.swift */,
 				C7C176BD1F02A75E0050942C /* GradientViewController4.swift */,
+				C78018471F03333B005AFE40 /* GradientViewController5.swift */,
 				C7C176A81F02A7010050942C /* AppDelegate.swift */,
 				C7C176AC1F02A7010050942C /* Main.storyboard */,
 				C7C176AF1F02A7010050942C /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78018481F03333B005AFE40 /* GradientViewController5.swift in Sources */,
 				C76BBD791F02A95F00B81C4F /* GradientViewController3.swift in Sources */,
 				C76BBD771F02A95900B81C4F /* GradientViewController1.swift in Sources */,
 				C76BBD7A1F02A96200B81C4F /* GradientViewController4.swift in Sources */,

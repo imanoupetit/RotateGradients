@@ -27,8 +27,6 @@ class GradientViewController1: UIViewController {
 	}
 	
 	override func viewDidLayoutSubviews() {
-		super.viewDidLayoutSubviews()
-		
 		gradientLayer.frame = view.bounds
 	}
 	

@@ -6,6 +6,7 @@
 Sources:
 
 - [medium.com / CALayer And Auto Layout With Swift](https://medium.com/@marcosantadev/calayer-and-auto-layout-with-swift-21b2d2b8b9d1)
+- [developer.apple.com / layoutSublayers(of:)](https://developer.apple.com/documentation/quartzcore/calayerdelegate/2097257-layoutsublayers)
 
 Related Stack Overflow question:
 
