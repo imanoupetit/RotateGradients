@@ -146,6 +146,26 @@
                                             <segue destination="2JB-pm-KNb" kind="show" id="xSN-6g-JjA"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="AYp-y2-6KP" style="IBUITableViewCellStyleDefault" id="ezr-GW-HLs">
+                                        <rect key="frame" x="0.0" y="255" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ezr-GW-HLs" id="tID-LO-zyu">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Gradient #6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AYp-y2-6KP">
+                                                    <rect key="frame" x="16" y="0.0" width="324" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QqZ-hH-Usr" kind="show" id="TJe-cu-aQO"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -175,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kv5-b0-cdD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-250" y="1846"/>
+            <point key="canvasLocation" x="-1022" y="1823"/>
         </scene>
         <!--Gradient #2-->
         <scene sceneID="Jzo-FF-bec">
@@ -192,7 +212,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6jR-N6-gIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="510" y="1847"/>
+            <point key="canvasLocation" x="-262" y="1824"/>
         </scene>
         <!--Gradient #3-->
         <scene sceneID="Hsw-UQ-RCY">
@@ -209,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IYI-fU-ZMB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1310" y="1847"/>
+            <point key="canvasLocation" x="538" y="1824"/>
         </scene>
         <!--Gradient #4-->
         <scene sceneID="zDa-HM-jD3">
@@ -226,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WbS-Pd-QSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2081" y="1846"/>
+            <point key="canvasLocation" x="1310" y="1823"/>
         </scene>
         <!--Gradient #5-->
         <scene sceneID="kwV-CA-QGh">
@@ -245,7 +265,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kpb-FB-RC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2831" y="1847"/>
+            <point key="canvasLocation" x="2058" y="1824"/>
+        </scene>
+        <!--Gradient #6-->
+        <scene sceneID="6kF-HS-q8b">
+            <objects>
+                <viewController id="QqZ-hH-Usr" customClass="GradientViewController6" customModule="RotateGradients" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uSL-T6-eVp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ie2-QV-XQl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZMk-yh-69N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gradient #6" id="afa-hZ-x4P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3TQ-HO-rJl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2846" y="1824"/>
         </scene>
     </scenes>
 </document>

@@ -16,6 +16,7 @@
 		C7C176AE1F02A7010050942C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C176AC1F02A7010050942C /* Main.storyboard */; };
 		C7C176B01F02A7010050942C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C176AF1F02A7010050942C /* Assets.xcassets */; };
 		C7C176B31F02A7010050942C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C176B11F02A7010050942C /* LaunchScreen.storyboard */; };
+		C7CE29151F038F7C0014D58E /* GradientViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE29141F038F7C0014D58E /* GradientViewController6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C7C176BC1F02A75E0050942C /* GradientViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController2.swift; sourceTree = "<group>"; };
 		C7C176BD1F02A75E0050942C /* GradientViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController4.swift; sourceTree = "<group>"; };
 		C7C176BE1F02A75E0050942C /* GradientViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController3.swift; sourceTree = "<group>"; };
+		C7CE29141F038F7C0014D58E /* GradientViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				C7C176BE1F02A75E0050942C /* GradientViewController3.swift */,
 				C7C176BD1F02A75E0050942C /* GradientViewController4.swift */,
 				C78018471F03333B005AFE40 /* GradientViewController5.swift */,
+				C7CE29141F038F7C0014D58E /* GradientViewController6.swift */,
 				C7C176A81F02A7010050942C /* AppDelegate.swift */,
 				C7C176AC1F02A7010050942C /* Main.storyboard */,
 				C7C176AF1F02A7010050942C /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				C76BBD7A1F02A96200B81C4F /* GradientViewController4.swift in Sources */,
 				C7C176A91F02A7010050942C /* AppDelegate.swift in Sources */,
 				C76BBD781F02A95C00B81C4F /* GradientViewController2.swift in Sources */,
+				C7CE29151F038F7C0014D58E /* GradientViewController6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
