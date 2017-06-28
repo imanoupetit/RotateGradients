@@ -14,14 +14,18 @@ class LayerView: UIView {
 		return CAGradientLayer.self
 	}
 	
-	convenience init() {
-		self.init(frame: .zero)
+	required init() {
+		super.init(frame: .zero)
 		
 		guard let gradientLayer = layer as? CAGradientLayer else { return }
 		gradientLayer.colors = [
 			UIColor.blue.cgColor,
 			UIColor.cyan.cgColor
 		]
+	}
+	
+	required init?(coder aDecoder: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
 	}
 	
 }
