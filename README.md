@@ -1,5 +1,5 @@
 # RotateGradients
-5 ways to manage rotation for UIViews that have gradients
+6 ways to manage rotation for UIViews that have gradients
 
 ---
 
